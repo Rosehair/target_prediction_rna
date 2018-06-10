@@ -3,6 +3,9 @@ my code for miRna and mRna binding site prediction problem
   
   
   
+  
+  
+untar data files to data folder  
 
 deepTarget code requirements  
   
