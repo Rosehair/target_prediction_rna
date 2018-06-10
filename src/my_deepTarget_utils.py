@@ -29,3 +29,10 @@ def make_train_pair(mirna_ids, mirna_seqs, mrna_ids, mrna_seqs, query_ids, targe
 
     Y = np.array([[Y[i]] for i in range(len(Y))], 'uint8')
     return X_query_ids, X_query_seqs, X_target_ids, X_target_seqs, Y
+
+def comp(seq):
+    wc_pairs = {'A': 'U', 'U': 'A', 'G': 'C', 'C': 'G'}
+    rc_seed = ''
+    for i in seq:
+        rc_seed += wc_pairs[i]
+    return rc_seed
