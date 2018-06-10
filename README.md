@@ -1,9 +1,12 @@
+my code for miRna and mRna binding site prediction problem  
 
-
+  
+  
+  
 
 deepTarget code requirements  
   
-please change default kernel to theano  
+please change keras's default kernel to theano  
 keras==0.3.3   
 Theano==1.0.1  
   
